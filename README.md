@@ -30,7 +30,7 @@ Hint: To find files could be used glob matcher from standard Java NIO library.
 
 Provide the application code or link to the public code repository and description of how to use it.
 
-The solution of the problem is given in this repository.
+#### The solution of the problem is given in this repository.
 
 ### How to use?
 1. Download [FilesMatchingWildcardRegularExpression.jar](out/artifacts/FilesMatchingWildcardRegularExpression_jar/FilesMatchingWildcardRegularExpression.jar);
