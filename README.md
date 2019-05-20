@@ -37,7 +37,7 @@ Provide the application code or link to the public code repository and descripti
 2. Mark the file in the folder with the files and directories that you want to work;
 3. Run file on the command line.
 
-_To search for files in the folder where the jar-archive is located, simply type "-dir /" or "-dir //"_
+*_To search for files in the folder where the jar-archive is located, simply add to arguments "-dir /" or "-dir //"_
 
 ### Example
 1. All my neccessar directories and files are in folder "x":
