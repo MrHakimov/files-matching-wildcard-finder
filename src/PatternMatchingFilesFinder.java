@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -38,7 +39,10 @@ class PatternMatchingFilesFinder {
                 public FileVisitResult preVisitDirectory(Path currentDirectory, BasicFileAttributes attributes) {
                     try (DirectoryStream<Path> stream = Files.newDirectoryStream(currentDirectory, pattern)) {
                         for (Path entry : stream) {
-                            printFileName(entry.toAbsolutePath().toString());
+                            File currentPath = new File(entry.toAbsolutePath().toString());
+                            if (currentPath.isFile()) {
+                                printFileName(entry.toAbsolutePath().toString());
+                            }
                         }
                     } catch (IOException e) {
                         printErrorMessage(currentDirectory.getFileName().toString());
