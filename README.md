@@ -29,3 +29,10 @@ This application should return the following file paths in stdout:
 Hint: To find files could be used glob matcher from standard Java NIO library.
 
 Provide the application code or link to the public code repository and description of how to use it.
+
+The solution of the problem is given in this repository.
+
+### How to use?
+1. Download [FilesMatchingWildcardRegularExpression.jar](/files_matching_wildcard_finder/tree/master/out/artifacts/FilesMatchingWildcardRegularExpression_jar);
+2. Mark the file in the folder with the files and directories that you want to work;
+3. Run file on the command line.
