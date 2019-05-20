@@ -33,6 +33,6 @@ Provide the application code or link to the public code repository and descripti
 The solution of the problem is given in this repository.
 
 ### How to use?
-1. Download [FilesMatchingWildcardRegularExpression.jar](out/artifacts/FilesMatchingWildcardRegularExpression_jar);
+1. Download [FilesMatchingWildcardRegularExpression.jar](out/artifacts/FilesMatchingWildcardRegularExpression_jar/FilesMatchingWildcardRegularExpression.jar);
 2. Mark the file in the folder with the files and directories that you want to work;
 3. Run file on the command line.
