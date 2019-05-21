@@ -1,4 +1,4 @@
-# files_matching_wildcard_finder
+# files-matching-wildcard-finder
 Write command line application which executes a recursive search for files matching specified wildcard pattern in the specified directories. This application should work on macOS/Linux/Windows.
 
 Example:
